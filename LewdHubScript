@@ -398,7 +398,7 @@ Frame_8.Size = UDim2.new(0, 102, 0, 41)
 
 -- Scripts:
 
-local function FYRG_fake_script() -- TextButton.LocalScript 
+local function GSBRA_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -689,8 +689,8 @@ local function FYRG_fake_script() -- TextButton.LocalScript
 	end)
 	
 end
-coroutine.wrap(FYRG_fake_script)()
-local function XLODX_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(GSBRA_fake_script)()
+local function THTBR_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -789,8 +789,8 @@ local function XLODX_fake_script() -- TextButton_2.LocalScript
 	end)
 	
 end
-coroutine.wrap(XLODX_fake_script)()
-local function EZRAJID_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(THTBR_fake_script)()
+local function VHGV_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Down:Connect(function()
@@ -803,8 +803,8 @@ local function EZRAJID_fake_script() -- TextButton_3.LocalScript
 	end)
 	
 end
-coroutine.wrap(EZRAJID_fake_script)()
-local function FIEJPC_fake_script() -- Frame.Dragify 
+coroutine.wrap(VHGV_fake_script)()
+local function EVDIU_fake_script() -- Frame.Dragify 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -845,8 +845,8 @@ local function FIEJPC_fake_script() -- Frame.Dragify
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(FIEJPC_fake_script)()
-local function GPNS_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(EVDIU_fake_script)()
+local function DLRWNMB_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	while true do
@@ -877,8 +877,8 @@ local function GPNS_fake_script() -- TextLabel.LocalScript
 	
 	
 end
-coroutine.wrap(GPNS_fake_script)()
-local function VLOFKUO_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(DLRWNMB_fake_script)()
+local function JALDYC_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -888,8 +888,8 @@ local function VLOFKUO_fake_script() -- TextButton_7.LocalScript
 	end)
 	
 end
-coroutine.wrap(VLOFKUO_fake_script)()
-local function VETVML_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(JALDYC_fake_script)()
+local function PDJN_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -899,8 +899,8 @@ local function VETVML_fake_script() -- TextButton_8.LocalScript
 	end)
 	
 end
-coroutine.wrap(VETVML_fake_script)()
-local function YIJYB_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(PDJN_fake_script)()
+local function NVTLVNM_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -910,20 +910,35 @@ local function YIJYB_fake_script() -- TextButton_9.LocalScript
 	end)
 	
 end
-coroutine.wrap(YIJYB_fake_script)()
-local function QGUM_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(NVTLVNM_fake_script)()
+local function PXJLB_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 	end)
 end
-coroutine.wrap(QGUM_fake_script)()
-local function WWXHUEY_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(PXJLB_fake_script)()
+local function EALCSUP_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/ZmyXkCcH"))()
 	end)
 end
-coroutine.wrap(WWXHUEY_fake_script)()
+coroutine.wrap(EALCSUP_fake_script)()
+local function OZXXBQ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	function onKeyPress(a,b)
+	if not b then if a.KeyCode==Enum.KeyCode.LeftControl
+		then 
+			script.Parent.Visible=not script.Parent.Visible
+		end
+	end 
+	end;
+	game:GetService("UserInputService").InputBegan:connect(onKeyPress)
+	--free key press open gui script
+	
+end
+coroutine.wrap(OZXXBQ_fake_script)()
